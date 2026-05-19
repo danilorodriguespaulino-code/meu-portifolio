@@ -1,0 +1,58 @@
+body{
+    background:linear-gradient(120deg, rgb(160, 0, 0), rgb(100, 0, 0));
+    font: normal 16px Arial,helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    color: rgb(255, 251, 251);
+    text-align: center;
+
+
+
+}
+section{
+    background: rgb(246, 246, 246);
+    
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.432);
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.432);
+}
+input[type="button"]{
+    background: rgb(141, 2, 2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+
+}
+
+#foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+
+}
+
+#res{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+   
