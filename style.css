@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+#maquina-escrever {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation:piscar 1.8s infinite;
+
+
+
+}
+
+
+@keyframes piscar {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+   
+}
 body {
     font-family: "poppins", sans-serif;
     font-size: 15px;
